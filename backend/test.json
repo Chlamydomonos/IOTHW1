@@ -1,0 +1,8 @@
+{
+    "sampleRate": 44100,
+    "frequency": 440,
+    "initialPhase": 0,
+    "amplitude": 1,
+    "path": "/files/generated/1699348350.wav",
+    "intervalLength": 100
+}

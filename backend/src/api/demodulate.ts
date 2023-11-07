@@ -24,9 +24,9 @@ interface DemodulateHandlerEventEmitter {
 
 class DemodulateHandler extends Writable implements DemodulateHandlerEventEmitter {
     constructor(
-        private frequency: number,
-        private sampleRate: number,
-        private interval: number,
+        frequency: number,
+        sampleRate: number,
+        interval: number,
         private threshold: number,
     ) {
         super();

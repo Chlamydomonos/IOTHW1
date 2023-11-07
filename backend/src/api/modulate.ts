@@ -3,7 +3,6 @@ import { handleRequest } from '../lib/request-handler';
 import { FileWriter } from 'wav';
 import path from 'path';
 import { GENERATED_DIR } from '../lib/paths';
-import { buffer } from 'stream/consumers';
 
 interface ModulateReq {
     frequency: number;

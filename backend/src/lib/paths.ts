@@ -3,6 +3,7 @@ import path from 'path';
 export const SRC_DIR = path.resolve(__dirname, '..');
 export const SCRIPT_DIR = path.resolve(SRC_DIR, 'api');
 export const BACKEND_ROOT_DIR = path.resolve(SRC_DIR, '..');
+export const PYTHON_DIR = path.resolve(BACKEND_ROOT_DIR, 'pySrc');
 export const FILES_DIR = path.resolve(BACKEND_ROOT_DIR, 'files');
 export const GENERATED_DIR = path.resolve(FILES_DIR, 'generated');
 export const UPLOADED_DIR = path.resolve(FILES_DIR, 'uploaded');
